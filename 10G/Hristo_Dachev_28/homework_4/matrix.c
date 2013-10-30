@@ -2,7 +2,8 @@
 
 int main(){
 
-	int n,i,j,num,sum=0;
+	int n,i,j;
+	float sum=0;
 	
 	for(;;){
 		scanf("%d", &n);
@@ -11,11 +12,11 @@ int main(){
 		}else break;
 	}
 
-	int arr[n][n];
+	float arr[n][n];
 
 	for(i=0;i<n;i++){
 		for(j=0;j<n;j++){
-			scanf("%d", &arr[i][j]);
+			scanf("%f", &arr[i][j]);
 		}
 	}
 	
@@ -26,7 +27,7 @@ int main(){
 			sum += arr[i][j];
 		}
 	}
-	printf("%d\n", sum);
+	printf("%f\n", sum);
 	
 return 0;
 
