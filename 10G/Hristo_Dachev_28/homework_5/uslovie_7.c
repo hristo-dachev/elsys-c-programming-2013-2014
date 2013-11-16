@@ -20,7 +20,6 @@ int main() {
 		switch (second % 10) {
 			case 0: printf("nula\n"); break;
 			case 1: printf("edno\n"); break;
-			case 2: printf("dwe\n"); break;
 			case 3: printf("tri\n"); break;
 			case 4: printf("chetiri\n"); break;
 			case 5: printf("pet\n"); break;
@@ -36,7 +35,7 @@ int main() {
 		switch(second % 10) {
 			case 0: printf("deset\n"); break;
 			case 1: printf("edinadeset\n"); break;
-			case 2: printf("dwanadeset\n"); break;
+			case 2: printf("dvanadeset\n"); break;
 			case 3: printf("trinadeset\n"); break;
 			case 4: printf("chetirinadeset\n"); break;
 			case 5: printf("petnadeset\n"); break;
